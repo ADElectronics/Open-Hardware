@@ -1,0 +1,12 @@
+Output: Ёкспорт NC Drill
+Type  : NC Drill
+From  : PCB Document [BOARD.PcbDoc]
+   Generated File[BOARD.TXT]
+   Generated File[BOARD.LDP]
+   Generated File[BOARD.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 17:16:58 On 24.07.2019
