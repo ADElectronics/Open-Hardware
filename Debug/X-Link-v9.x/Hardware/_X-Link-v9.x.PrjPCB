@@ -93,6 +93,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document4]
+DocumentPath=BOARD.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=30AA987E-AC32-4712-BA09-84B48247096E
 Description=Type-C
@@ -114,24 +131,24 @@ Variation3=Designator=R3|UniqueId=\NAEADGHC|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=PCB_Week
-Value=2012
+Name=GlobalOrganizationName
+Value=A_D Electronics
 
 [Parameter2]
-Name=GlobalProjectRevision
-Value=0
+Name=GlobalProjectName
+Value=X-Link-v9.x
 
 [Parameter3]
 Name=GlobalProjectNumber
 Value=A_D.000000.001
 
 [Parameter4]
-Name=GlobalProjectName
-Value=X-Link-v9.x
+Name=GlobalProjectRevision
+Value=0
 
 [Parameter5]
-Name=GlobalOrganizationName
-Value=A_D Electronics
+Name=PCB_Week
+Value=2012
 
 [Configuration1]
 Name=Default Configuration

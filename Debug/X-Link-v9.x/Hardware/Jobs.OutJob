@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Jobs.OutJob
 Description=
-TargetOutputMedium=07. Перечень элементов (пайка)
+TargetOutputMedium=02. Сборочный чертёж
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Canon LBP6020 (копия 1)
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=04. Гербер файлы
 OutputMedium1_Type=GeneratedFiles
@@ -156,7 +156,7 @@ OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
-OutputEnabled6_OutputMedium4=1
+OutputEnabled6_OutputMedium4=0
 OutputEnabled6_OutputMedium5=0
 OutputEnabled6_OutputMedium6=0
 OutputEnabled6_OutputMedium7=0
@@ -208,7 +208,7 @@ OutputName8=Перечень элементов (пайка)
 OutputCategory8=Report
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
@@ -278,6 +278,22 @@ OutputEnabled10_OutputMedium8=0
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
 Configuration10_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0
+OutputType11=PCBDrawing
+OutputName11=Сборочный чертеж Draftsman
+OutputCategory11=Documentation
+OutputDocumentPath11=
+OutputVariantName11=
+OutputEnabled11=1
+OutputEnabled11_OutputMedium1=0
+OutputEnabled11_OutputMedium2=0
+OutputEnabled11_OutputMedium3=0
+OutputEnabled11_OutputMedium4=1
+OutputEnabled11_OutputMedium5=0
+OutputEnabled11_OutputMedium6=0
+OutputEnabled11_OutputMedium7=0
+OutputEnabled11_OutputMedium8=0
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [PublishSettings]
 OutputFilePath1=D:\KK_AD\GitHub\Open-Hardware\Debug\X-Link-v9.x\_Outputs\
