@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<document:XMLDocument xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:document="http://www.silabs.com/config/document/document.ecore">
+  <documentObject id="cp2102n_a01_gqfn20" version="1.0">
+    <propertyValue propertyId="cp2102n.portSettings.control.RXLED" value="1"/>
+    <propertyValue propertyId="cp2102n.portSettings.gpio.GPIO3.reset.Mode" value="1"/>
+    <propertyValue propertyId="cp2102n.portSettings.gpio.GPIO3.suspend.Mode" value="1"/>
+    <propertyValue propertyId="cp210x_base.customer.address" value="&#xA;&#xA;,  &#xA;"/>
+    <propertyValue propertyId="cp210x_base.customer.contactname" value=" "/>
+    <propertyValue propertyId="cp210x_base.serialization.serialKey" value="E91BA871-7396-4635-ABA6-B626B9DDB544"/>
+  </documentObject>
+</document:XMLDocument>
