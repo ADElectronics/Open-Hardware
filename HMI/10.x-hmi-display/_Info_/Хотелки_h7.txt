@@ -1,0 +1,23 @@
++ МК H7
+	STM32H743IIT6 или если не влезает, в след.корпусе (204)
+
++ ОЗУ 32 бит шина на 512Мбит
+	IS42S32160F-7TLI 
+
+- SD карта (sdmmc)
+
+
+- флешка QuadSPI на 128 Мбит или 256 (quadspi)
+
+
+- FRAM по SPI
+
+
++ 2 CAN-а ISO1050DW + B0505XT-1WR3 + RJ45
+
++ отладочный разъем, CWF-6R вытащит: swdio, swclk, gnd, +3.3V, TX и reset
+
++ LVDS выход на дисплей, SN65LVDS93ADGGR (еще есть THC63LVD823B на 2 выхода)
+
++ Wi-Fi модуль
+	 ESP32-PICO-D4
