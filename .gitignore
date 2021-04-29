@@ -1,5 +1,3 @@
 # Not for public yet
 /FPGA/*
 /LCD/*
-/Debug/FT2232H_JTAG_UART/*
-/Clock/1508MT015 Dev Board/*
