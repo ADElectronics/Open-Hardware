@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=01_MAIN.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=01_MAIN.SchDoc|FileName=02_ETHERNET.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=01_MAIN.SchDoc|FileName=03_POWER.SchDoc|SheetNumber=3
