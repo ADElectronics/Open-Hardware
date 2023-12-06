@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=01_USB.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=01_USB.SchDoc|FileName=02_MCU_IO.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=01_USB.SchDoc|FileName=03_POWER.SchDoc|SheetNumber=3
