@@ -1,4 +1,4 @@
-[Design]
+п»ї[Design]
 Version=1.0
 HierarchyMode=3
 ChannelRoomNamingStyle=0
@@ -23,15 +23,24 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=1
 PowerPortNamesTakePriority=1
+AutoSheetNumbering=0
+AutoCrossReferences=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
+IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=_Outputs
 LogFolderPath=_Logs
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -112,6 +121,23 @@ DocumentUniqueId=
 
 [Document5]
 DocumentPath=BOARD.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document6]
+DocumentPath=BOM.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -229,7 +255,7 @@ OutputDir=_Outputs
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Canon LBP6020 (копия 1)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
@@ -330,7 +356,7 @@ OutputDefault19=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Canon LBP6020 (копия 1)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -376,7 +402,7 @@ OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType7=Schematic Print
 OutputName7=Schematic Prints
-OutputDocumentPath7=D:\OneDriveDisk\Hardware\ВМСТ.467748.001 - Дискриминатор\ВМСТ.467748.001_v1.SchDoc
+OutputDocumentPath7=D:\OneDriveDisk\Hardware\Р’РњРЎРў.467748.001 - Р”РёСЃРєСЂРёРјРёРЅР°С‚РѕСЂ\Р’РњРЎРў.467748.001_v1.SchDoc
 OutputVariantName7=
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
@@ -400,11 +426,17 @@ OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Canon LBP6020 (копия 1)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -426,7 +458,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Canon LBP6020 (копия 1)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Drill
 OutputName1=Drill Drawing/Guides
@@ -528,7 +560,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Canon LBP6020 (копия 1)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
@@ -571,16 +603,23 @@ OutputName6=Report Project Hierarchy
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=GOSTBOM
-OutputName7=GOST BOM
+OutputType7=BOM_ReportCompare
+OutputName7=BOM Compare
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Export Comments
+OutputName8=Export Comments
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Canon LBP6020 (копия 1)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -684,83 +723,11 @@ OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType18=Text Print
-OutputName18=Text Print
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType19=Text Print
-OutputName19=Text Print
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType20=Text Print
-OutputName20=Text Print
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType21=Text Print
-OutputName21=Text Print
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType22=Text Print
-OutputName22=Text Print
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType23=Text Print
-OutputName23=Text Print
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
-PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType24=Text Print
-OutputName24=Text Print
-OutputDocumentPath24=
-OutputVariantName24=
-OutputDefault24=0
-PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType25=Text Print
-OutputName25=Text Print
-OutputDocumentPath25=
-OutputVariantName25=
-OutputDefault25=0
-PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType26=Text Print
-OutputName26=Text Print
-OutputDocumentPath26=
-OutputVariantName26=
-OutputDefault26=0
-PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType27=Text Print
-OutputName27=Text Print
-OutputDocumentPath27=
-OutputVariantName27=
-OutputDefault27=0
-PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType28=Text Print
-OutputName28=Text Print
-OutputDocumentPath28=
-OutputVariantName28=
-OutputDefault28=0
-PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType29=Text Print
-OutputName29=Text Print
-OutputDocumentPath29=
-OutputVariantName29=
-OutputDefault29=0
-PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Canon LBP6020 (копия 1)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -804,7 +771,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Canon LBP6020 (копия 1)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=ExportSTEP
 OutputName1=Export STEP
@@ -846,16 +813,11 @@ OutputName8=Specctra Design PCB
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=HyperLynx
-OutputName9=HyperLynx (AutoPCB)
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Canon LBP6020 (копия 1)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -981,6 +943,8 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1049,6 +1013,8 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1057,7 +1023,7 @@ Type3=2
 Type4=1
 Type5=2
 Type6=2
-Type7=1
+Type7=0
 Type8=1
 Type9=1
 Type10=1
@@ -1070,20 +1036,20 @@ Type16=1
 Type17=1
 Type18=1
 Type19=1
-Type20=1
-Type21=1
-Type22=1
-Type23=1
+Type20=0
+Type21=0
+Type22=0
+Type23=0
 Type24=1
 Type25=2
-Type26=2
+Type26=0
 Type27=2
 Type28=1
 Type29=1
 Type30=1
 Type31=1
 Type32=2
-Type33=2
+Type33=0
 Type34=2
 Type35=1
 Type36=2
@@ -1094,15 +1060,15 @@ Type40=2
 Type41=0
 Type42=2
 Type43=1
-Type44=1
-Type45=2
-Type46=1
-Type47=2
-Type48=2
-Type49=1
+Type44=0
+Type45=0
+Type46=0
+Type47=0
+Type48=0
+Type49=0
 Type50=2
-Type51=1
-Type52=1
+Type51=0
+Type52=0
 Type53=1
 Type54=1
 Type55=1
@@ -1110,10 +1076,10 @@ Type56=2
 Type57=1
 Type58=1
 Type59=0
-Type60=1
-Type61=2
-Type62=2
-Type63=1
+Type60=0
+Type61=0
+Type62=0
+Type63=0
 Type64=0
 Type65=2
 Type66=3
@@ -1151,7 +1117,7 @@ Type97=2
 Type98=0
 Type99=1
 Type100=2
-Type101=1
+Type101=0
 Type102=2
 Type103=2
 Type104=1
@@ -1173,6 +1139,9 @@ Type119=3
 MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
+Type123=1
+Type124=1
+Type125=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1196,6 +1165,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=1
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1216,249 +1186,250 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=ADLib.DbLib/Диоды SMT - Супрессоры
+ComponentLibraryIdentifier0=ADLib.DbLib/Р”РёРѕРґС‹ SMT - РЎСѓРїСЂРµСЃСЃРѕСЂС‹
 ComponentDesignItemID0=USBLC6-2P6
 ComponentSymbolReference0=USBLC6-2x6
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=ADLib.DbLib/Дроссели SMT - Ферритовые бусины
+ComponentLibraryIdentifier1=ADLib.DbLib/Р”СЂРѕСЃСЃРµР»Рё SMT - Р¤РµСЂСЂРёС‚РѕРІС‹Рµ Р±СѓСЃРёРЅС‹
 ComponentDesignItemID1=BLM15PD121SN1D
 ComponentSymbolReference1=FerriteBead
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=ADLib.DbLib/Кварцевые Резонаторы SMT
+ComponentLibraryIdentifier2=ADLib.DbLib/РљРІР°СЂС†РµРІС‹Рµ Р РµР·РѕРЅР°С‚РѕСЂС‹ SMT
 ComponentDesignItemID2=AB-12.000MALE-T
 ComponentSymbolReference2=Crystal
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=ADLib.DbLib/Конденсаторы SMT - Керамические
+ComponentLibraryIdentifier3=ADLib.DbLib/РљРѕРЅРґРµРЅСЃР°С‚РѕСЂС‹ SMT - РљРµСЂР°РјРёС‡РµСЃРєРёРµ
 ComponentDesignItemID3=GCM155R71C104KA55D
 ComponentSymbolReference3=Capacitor
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=ADLib.DbLib/Конденсаторы SMT - Керамические
+ComponentLibraryIdentifier4=ADLib.DbLib/РљРѕРЅРґРµРЅСЃР°С‚РѕСЂС‹ SMT - РљРµСЂР°РјРёС‡РµСЃРєРёРµ
 ComponentDesignItemID4=GCM155R71E103KA37D
 ComponentSymbolReference4=Capacitor
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=ADLib.DbLib/Конденсаторы SMT - Керамические
+ComponentLibraryIdentifier5=ADLib.DbLib/РљРѕРЅРґРµРЅСЃР°С‚РѕСЂС‹ SMT - РљРµСЂР°РјРёС‡РµСЃРєРёРµ
 ComponentDesignItemID5=GRM1555C1H120JA01D
 ComponentSymbolReference5=Capacitor
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=ADLib.DbLib/Конденсаторы SMT - Керамические
+ComponentLibraryIdentifier6=ADLib.DbLib/РљРѕРЅРґРµРЅСЃР°С‚РѕСЂС‹ SMT - РљРµСЂР°РјРёС‡РµСЃРєРёРµ
 ComponentDesignItemID6=GRM155D71C225ME11D
 ComponentSymbolReference6=Capacitor
 ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=ADLib.DbLib/Конденсаторы SMT - Керамические
+ComponentLibraryIdentifier7=ADLib.DbLib/РљРѕРЅРґРµРЅСЃР°С‚РѕСЂС‹ SMT - РљРµСЂР°РјРёС‡РµСЃРєРёРµ
 ComponentDesignItemID7=GRM155R60J475ME87D
 ComponentSymbolReference7=Capacitor
 ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=ADLib.DbLib/Конденсаторы SMT - Керамические
+ComponentLibraryIdentifier8=ADLib.DbLib/РљРѕРЅРґРµРЅСЃР°С‚РѕСЂС‹ SMT - РљРµСЂР°РјРёС‡РµСЃРєРёРµ
 ComponentDesignItemID8=GRM155R61C105KA12D
 ComponentSymbolReference8=Capacitor
 ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=ADLib.DbLib/Конденсаторы SMT - Керамические
+ComponentLibraryIdentifier9=ADLib.DbLib/РљРѕРЅРґРµРЅСЃР°С‚РѕСЂС‹ SMT - РљРµСЂР°РјРёС‡РµСЃРєРёРµ
 ComponentDesignItemID9=GRM188R61A106KE69D
 ComponentSymbolReference9=Capacitor
 ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=ADLib.DbLib/Конденсаторы SMT - Керамические
+ComponentLibraryIdentifier10=ADLib.DbLib/РљРѕРЅРґРµРЅСЃР°С‚РѕСЂС‹ SMT - РљРµСЂР°РјРёС‡РµСЃРєРёРµ
 ComponentDesignItemID10=GRM188R61A226ME15D
 ComponentSymbolReference10=Capacitor
 ComponentUpdate10=1
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=ADLib.DbLib/Конденсаторы SMT - Керамические
+ComponentLibraryIdentifier11=ADLib.DbLib/РљРѕРЅРґРµРЅСЃР°С‚РѕСЂС‹ SMT - РљРµСЂР°РјРёС‡РµСЃРєРёРµ
 ComponentDesignItemID11=GRM188R72A104KA35D
 ComponentSymbolReference11=Capacitor
 ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=ADLib.DbLib/Модули - Изоляторы питания
+ComponentLibraryIdentifier12=ADLib.DbLib/РњРѕРґСѓР»Рё - РР·РѕР»СЏС‚РѕСЂС‹ РїРёС‚Р°РЅРёСЏ
 ComponentDesignItemID12=AM1L-0505SH30-NZ
 ComponentSymbolReference12=AM1L-xxxxSH30-Series
 ComponentUpdate12=1
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=ADLib.DbLib/МС - DC-DC - Линейные
+ComponentLibraryIdentifier13=ADLib.DbLib/РњРЎ - DC-DC - Р›РёРЅРµР№РЅС‹Рµ
 ComponentDesignItemID13=TPS73701DRBR
 ComponentSymbolReference13=TPS73701DRB
 ComponentUpdate13=1
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=ADLib.DbLib/МС - MCU
+ComponentLibraryIdentifier14=ADLib.DbLib/РњРЎ - MCU
 ComponentDesignItemID14=STM32F205RET6
 ComponentSymbolReference14=STM32F205RxTx-Series
 ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=ADLib.DbLib/МС - Изоляторы интерфейсов
+ComponentLibraryIdentifier15=ADLib.DbLib/РњРЎ - РР·РѕР»СЏС‚РѕСЂС‹ РёРЅС‚РµСЂС„РµР№СЃРѕРІ
 ComponentDesignItemID15=ADUM3160BRWZ
 ComponentSymbolReference15=ADuMx160-Series
 ComponentUpdate15=1
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=ADLib.DbLib/МС - Согласователи уровней
+ComponentLibraryIdentifier16=ADLib.DbLib/РњРЎ - РЎРѕРіР»Р°СЃРѕРІР°С‚РµР»Рё СѓСЂРѕРІРЅРµР№
 ComponentDesignItemID16=74LVC1T45FZ4-7
 ComponentSymbolReference16=74LVC1T45x-Series
 ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 ComponentLibIdentifierKind17=Library Name And Type
-ComponentLibraryIdentifier17=ADLib.DbLib/МС - Согласователи уровней
+ComponentLibraryIdentifier17=ADLib.DbLib/РњРЎ - РЎРѕРіР»Р°СЃРѕРІР°С‚РµР»Рё СѓСЂРѕРІРЅРµР№
 ComponentDesignItemID17=SN74LVC2T45DCUR
 ComponentSymbolReference17=SN74LVC2T45DCx-Series
 ComponentUpdate17=1
 ComponentIsDeviceSheet17=0
 ComponentLibIdentifierKind18=Library Name And Type
-ComponentLibraryIdentifier18=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier18=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID18=RC0402FR-0710KL
 ComponentSymbolReference18=Resistor
 ComponentUpdate18=1
 ComponentIsDeviceSheet18=0
 ComponentLibIdentifierKind19=Library Name And Type
-ComponentLibraryIdentifier19=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier19=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID19=RC0402FR-0712KL
 ComponentSymbolReference19=Resistor
 ComponentUpdate19=1
 ComponentIsDeviceSheet19=0
 ComponentLibIdentifierKind20=Library Name And Type
-ComponentLibraryIdentifier20=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier20=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID20=RC0402FR-071K6L
 ComponentSymbolReference20=Resistor
 ComponentUpdate20=1
 ComponentIsDeviceSheet20=0
 ComponentLibIdentifierKind21=Library Name And Type
-ComponentLibraryIdentifier21=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier21=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID21=RC0402FR-0722K1L
 ComponentSymbolReference21=Resistor
 ComponentUpdate21=1
 ComponentIsDeviceSheet21=0
 ComponentLibIdentifierKind22=Library Name And Type
-ComponentLibraryIdentifier22=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier22=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID22=RC0402FR-075K1L
 ComponentSymbolReference22=Resistor
 ComponentUpdate22=1
 ComponentIsDeviceSheet22=0
 ComponentLibIdentifierKind23=Library Name And Type
-ComponentLibraryIdentifier23=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier23=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID23=RC0402JR-070RL
 ComponentSymbolReference23=Resistor
 ComponentUpdate23=1
 ComponentIsDeviceSheet23=0
 ComponentLibIdentifierKind24=Library Name And Type
-ComponentLibraryIdentifier24=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier24=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID24=RC0402JR-07100KL
 ComponentSymbolReference24=Resistor
 ComponentUpdate24=1
 ComponentIsDeviceSheet24=0
 ComponentLibIdentifierKind25=Library Name And Type
-ComponentLibraryIdentifier25=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier25=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID25=RC0402JR-07100RL
 ComponentSymbolReference25=Resistor
 ComponentUpdate25=1
 ComponentIsDeviceSheet25=0
 ComponentLibIdentifierKind26=Library Name And Type
-ComponentLibraryIdentifier26=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier26=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID26=RC0402JR-0710KL
 ComponentSymbolReference26=Resistor
 ComponentUpdate26=1
 ComponentIsDeviceSheet26=0
 ComponentLibIdentifierKind27=Library Name And Type
-ComponentLibraryIdentifier27=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier27=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID27=RC0402JR-071KL
 ComponentSymbolReference27=Resistor
 ComponentUpdate27=1
 ComponentIsDeviceSheet27=0
 ComponentLibIdentifierKind28=Library Name And Type
-ComponentLibraryIdentifier28=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier28=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID28=RC0402JR-07200KL
 ComponentSymbolReference28=Resistor
 ComponentUpdate28=1
 ComponentIsDeviceSheet28=0
 ComponentLibIdentifierKind29=Library Name And Type
-ComponentLibraryIdentifier29=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier29=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID29=RC0402JR-07430RL
 ComponentSymbolReference29=Resistor
 ComponentUpdate29=1
 ComponentIsDeviceSheet29=0
 ComponentLibIdentifierKind30=Library Name And Type
-ComponentLibraryIdentifier30=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier30=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID30=RC0402JR-074K7L
 ComponentSymbolReference30=Resistor
 ComponentUpdate30=1
 ComponentIsDeviceSheet30=0
 ComponentLibIdentifierKind31=Library Name And Type
-ComponentLibraryIdentifier31=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier31=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID31=RC0402JR-0751RL
 ComponentSymbolReference31=Resistor
 ComponentUpdate31=1
 ComponentIsDeviceSheet31=0
 ComponentLibIdentifierKind32=Library Name And Type
-ComponentLibraryIdentifier32=ADLib.DbLib/Резисторы SMT - Постоянные
+ComponentLibraryIdentifier32=ADLib.DbLib/Р РµР·РёСЃС‚РѕСЂС‹ SMT - РџРѕСЃС‚РѕСЏРЅРЅС‹Рµ
 ComponentDesignItemID32=RC0603JR-0722RL
 ComponentSymbolReference32=Resistor
 ComponentUpdate32=1
 ComponentIsDeviceSheet32=0
 ComponentLibIdentifierKind33=Library Name And Type
-ComponentLibraryIdentifier33=ADLib.DbLib/Светодиоды SMT - Общ
+ComponentLibraryIdentifier33=ADLib.DbLib/РЎРІРµС‚РѕРґРёРѕРґС‹ SMT - РћР±С‰
 ComponentDesignItemID33=KPHHS-1005QBC-D-V
 ComponentSymbolReference33=Led-1
 ComponentUpdate33=1
 ComponentIsDeviceSheet33=0
 ComponentLibIdentifierKind34=Library Name And Type
-ComponentLibraryIdentifier34=ADLib.DbLib/Соединители Электрические - FFC\FPC
+ComponentLibraryIdentifier34=ADLib.DbLib/РЎРѕРµРґРёРЅРёС‚РµР»Рё Р­Р»РµРєС‚СЂРёС‡РµСЃРєРёРµ - FFC\FPC
 ComponentDesignItemID34=XF2M-0615-1A
 ComponentSymbolReference34=Con-6-F_S
 ComponentUpdate34=1
 ComponentIsDeviceSheet34=0
 ComponentLibIdentifierKind35=Library Name And Type
-ComponentLibraryIdentifier35=ADLib.DbLib/Соединители Электрические - FFC\FPC
+ComponentLibraryIdentifier35=ADLib.DbLib/РЎРѕРµРґРёРЅРёС‚РµР»Рё Р­Р»РµРєС‚СЂРёС‡РµСЃРєРёРµ - FFC\FPC
 ComponentDesignItemID35=XF2M-1015-1A
 ComponentSymbolReference35=Con-10-F_S
 ComponentUpdate35=1
 ComponentIsDeviceSheet35=0
 ComponentLibIdentifierKind36=Library Name And Type
-ComponentLibraryIdentifier36=ADLib.DbLib/Соединители Электрические - USB
+ComponentLibraryIdentifier36=ADLib.DbLib/РЎРѕРµРґРёРЅРёС‚РµР»Рё Р­Р»РµРєС‚СЂРёС‡РµСЃРєРёРµ - USB
 ComponentDesignItemID36=DS1097-B
 ComponentSymbolReference36=Con-5-M-USB
 ComponentUpdate36=1
 ComponentIsDeviceSheet36=0
 ComponentLibIdentifierKind37=Library Name And Type
-ComponentLibraryIdentifier37=ADLib.DbLib/Соединители Электрические - USB
+ComponentLibraryIdentifier37=ADLib.DbLib/РЎРѕРµРґРёРЅРёС‚РµР»Рё Р­Р»РµРєС‚СЂРёС‡РµСЃРєРёРµ - USB
 ComponentDesignItemID37=U262-161N-4BVC11
 ComponentSymbolReference37=Con-USB_C-F-16P
 ComponentUpdate37=1
 ComponentIsDeviceSheet37=0
 ComponentLibIdentifierKind38=Library Name And Type
-ComponentLibraryIdentifier38=ADLib.DbLib/Соединители Электрические - Межплатные
+ComponentLibraryIdentifier38=ADLib.DbLib/РЎРѕРµРґРёРЅРёС‚РµР»Рё Р­Р»РµРєС‚СЂРёС‡РµСЃРєРёРµ - РњРµР¶РїР»Р°С‚РЅС‹Рµ
 ComponentDesignItemID38=PLS-5
 ComponentSymbolReference38=Con-5-M
 ComponentUpdate38=1
 ComponentIsDeviceSheet38=0
 ComponentLibIdentifierKind39=Library Name And Type
-ComponentLibraryIdentifier39=ADLib.DbLib/Соединители Электрические - Плата-Шлейф
+ComponentLibraryIdentifier39=ADLib.DbLib/РЎРѕРµРґРёРЅРёС‚РµР»Рё Р­Р»РµРєС‚СЂРёС‡РµСЃРєРёРµ - РџР»Р°С‚Р°-РЁР»РµР№С„
 ComponentDesignItemID39=IDC-10MR
 ComponentSymbolReference39=Con-10-M
 ComponentUpdate39=1
 ComponentIsDeviceSheet39=0
 ComponentLibIdentifierKind40=Library Name And Type
-ComponentLibraryIdentifier40=ADLib.DbLib/Транзисторы SMT - MOSFET
+ComponentLibraryIdentifier40=ADLib.DbLib/РўСЂР°РЅР·РёСЃС‚РѕСЂС‹ SMT - MOSFET
 ComponentDesignItemID40=NX3008NBKMB
 ComponentSymbolReference40=MOSFET-N
 ComponentUpdate40=1
@@ -1721,15 +1692,16 @@ ModelUpdate26=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|Confirm=0|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
